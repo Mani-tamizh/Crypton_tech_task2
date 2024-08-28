@@ -1,0 +1,154 @@
+
+body {
+  
+  font-family: "Poppins", sans-serif;  
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.4);
+}
+.unique
+{
+  display: flex;
+}
+
+.course-icon {
+  width: 70px;
+  height: 70px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eee;
+  text-align: center;
+  margin-right: 10px;
+  line-height: 40px;
+}
+
+.course-icon .fa-layer-group {
+  font-size: 30px;
+  color: purple;
+}
+
+.course-icon .fa-code {
+  font-size: 30px;
+  color: skyblue;
+}
+.course-icon .fa-qrcode {
+  font-size: 30px;
+  color: orange;
+}
+.course-icon .fa-desktop {
+  font-size: 30px;
+  color: darkseagreen;
+}
+.course-icon .fa-pager {
+  font-size: 30px;
+  color: indianred;
+}
+.hp .h1
+{
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.hp .h2
+{
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: 400;
+}
+.date
+{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.score,.time
+{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.score span
+{
+  color: rgba(0, 0, 0, 0.4);
+}
+.view-all {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.view-all h1
+{
+  color: rgba(0, 0, 0, 0.7);
+}
+.view-all a {
+  color: #007bff;
+  font-size: 20px;
+  text-decoration: none;
+}
+@media (max-width:965px)
+{
+  .hp .h1
+  {
+    font-size: 0.8rem;
+  }
+  .hp .h2
+  {
+    font-size: 0.8em;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 400;
+  }
+  thead tr th
+  {
+    font-size: 1.5em;
+  }
+
+.date
+{
+    font-size:0.6em;
+    color: rgba(0, 0, 0, 0.8);
+}
+.score,.time
+{
+    font-size: 0.6em;
+    color: rgba(0, 0, 0, 0.8);
+}
+}
+@media (max-width: 768px) 
+{
+
+  .hp .h1
+  {
+    font-size: 0.5rem;
+  }
+  thead tr th
+  {
+    font-size: 0.6em;
+  }
+}
